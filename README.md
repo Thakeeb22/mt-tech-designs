@@ -1,94 +1,96 @@
 # 💼 MT Tech Designs Portfolio
 
-Welcome to the official portfolio of **Muhammad Thakeeb Muhammad**, a passionate front-end developer, graphic designer, and lifelong learner from Kaduna, Nigeria.
+Welcome to the official portfolio of **Muhammad Thakeeb Muhammad** — a passionate front-end developer, graphic designer, and lifelong learner from Kaduna, Nigeria.
+
+---
 
 ## 🚀 Live Preview
 
-👉 [View the Website](https://thakeeb22.github.io/your-repo-name/)
-
+👉 [View the Website](https://thakeeb22.github.io/mt-tech-designs/)
 
 ---
 
 ## 📌 About the Project
 
 This is a fully responsive personal portfolio site that showcases:
+
 - My bio and tech background
 - Selected front-end and design projects
-- A working contact form with redirect to a thank-you page
+- A working contact form with a custom thank-you page
 
 ---
 
 ## 🎨 Features
 
 - 🔥 Stylish dark-themed layout
-- ✨ Smooth animations on hover
-- 📱 Fully responsive design for mobile and desktop
+- ✨ Smooth hover animations
+- 📱 Fully responsive design (mobile + desktop)
 - 📂 Live project previews with GitHub links
 - 📩 Working contact form powered by [FormSubmit](https://formsubmit.co)
-- ✅ Custom “Thank You” page
+- ✅ Custom thank-you page after form submission
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Built With
 
-- HTML5
-- CSS3
-- Font Awesome
-- Google Fonts (`Inter`)
-- FormSubmit (for the contact form)
-- GitHub Pages (for deployment)
+- **HTML5**
+- **CSS3**
+- **Font Awesome**
+- **Google Fonts** (`Inter`)
+- **FormSubmit** – contact form backend
+- **GitHub Pages** – for hosting
 
 ---
 
 ## 📷 Screenshots
 
-## Desktop view
-![](./Screenshots/MT%20TECH%20DESIGNS%20-%20Google%20Chrome%2021_06_2025%2003_31_07.png)
-![](./Screenshots/MT%20TECH%20DESIGNS%20-%20Google%20Chrome%2021_06_2025%2003_31_13.png)
-![](./Screenshots/MT%20TECH%20DESIGNS%20-%20Google%20Chrome%2021_06_2025%2003_31_22.png)
+### 🖥️ Desktop View
+![Desktop View 1](./Screenshots/MT%20TECH%20DESIGNS%20-%20Google%20Chrome%2021_06_2025%2003_31_07.png)
+![Desktop View 2](./Screenshots/MT%20TECH%20DESIGNS%20-%20Google%20Chrome%2021_06_2025%2003_31_13.png)
+![Desktop View 3](./Screenshots/MT%20TECH%20DESIGNS%20-%20Google%20Chrome%2021_06_2025%2003_31_22.png)
 
-## Mobile View
-![](./Screenshots/1750517286304.jpg)
-![](./Screenshots/1750517301618.jpg)
-![](./Screenshots/Screenshot_20250621-154619.jpg)
+### 📱 Mobile View
+![Mobile View 1](./Screenshots/1750517286304.jpg)
+![Mobile View 2](./Screenshots/1750517301618.jpg)
+![Mobile View 3](./Screenshots/Screenshot_20250621-154619.jpg)
 
 ---
 
 ## 📁 Folder Structure
 
-My Portfolio/
+mt-tech-designs/
 │
-├── img/ # Images and logo
+├── img/ # Images and logos
 ├── my resume/ # Resume PDF
-├── style.css # Main CSS file
-├── index.html # Main site
-├── thank-you.html # After form submission
-└── README.md # This file
+├── style.css # Main CSS stylesheet
+├── index.html # Main portfolio page
+├── thank-you.html # Thank you redirect page
+└── README.md # Project documentation
 
 ---
 
-## 📫 Contact
+## 📫 Contact Me
 
-- Email: [thakeebmuhammad@gmail.com](mailto:thakeebmuhammad@gmail.com)
-- GitHub: [Thakeeb22](https://github.com/Thakeeb22)
-- Twitter: [@MuhammadThakeeb](https://x.com/MuhammadThakeeb)
-- WhatsApp: [Chat on WhatsApp](https://wa.me/2348104127389)
+- 📧 Email: [thakeebmuhammad@gmail.com](mailto:thakeebmuhammad@gmail.com)
+- 🐙 GitHub: [@Thakeeb22](https://github.com/Thakeeb22)
+- 🐦 Twitter: [@MuhammadThakeeb](https://x.com/MuhammadThakeeb)
+- 💬 WhatsApp: [Chat with me](https://wa.me/2348104127389)
 
 ---
 
 ## 🧠 Future Improvements
 
-- Add project filtering with JavaScript
-- Add backend contact form handling with PHP or Node.js
-- Improve animations with GSAP or Framer Motion
-- Add blog or testimonial sections
+- ✅ Add filtering to project section with JavaScript
+- 🔧 Backend form handling with PHP/Node.js
+- 🎞️ Enhance animations using GSAP or Framer Motion
+- 🗣️ Add blog or testimonial section
 
 ---
 
 ## 📄 License
 
-This project is open-source and free to use under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-_Designed and developed by Muhammad Thakeeb Muhammad — MT Tech Designs_
+> _Designed and developed by Muhammad Thakeeb Muhammad — MT Tech Designs_
