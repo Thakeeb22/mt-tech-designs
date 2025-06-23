@@ -47,7 +47,9 @@ header {
   margin-bottom: 50px;
 }
 .logo > img {
-  width: 200px;
+  width: 30vw; 
+  max-width: 150px;
+  min-width: 100px;
 }
 nav > ul {
   list-style: none;
@@ -432,10 +434,6 @@ footer {
 
   #nav-menu.show-nav {
     display: flex;
-  }
-
-  .logo > img {
-    width: 150px;
   }
   .hero {
     flex-direction: column;
