@@ -15,6 +15,10 @@
   color: #fcfcfc;
   font-family: "Inter", sans-serif;
   line-height: 1.5;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 .mobile {
   display: none;
@@ -530,4 +534,179 @@ footer {
 #scrollToTopBtn.show {
   opacity: 1;
   visibility: visible;
+}
+/* ---------------------- */
+/* 📱 Devices < 768px (Tablets & Phones) */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .mobile {
+    display: block; /* 👈 Show the hamburger icon */
+    color: #91d8f7;
+  }
+
+  #nav-menu {
+    position: absolute;
+    top: 70px; 
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    align-items: center;
+    transform: translateY(-200%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+  }
+
+  #nav-menu.show-nav {
+    display: flex;
+    transform: translateY(0);
+  }
+
+  #nav-menu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .infom {
+    width: 100%;
+  }
+
+  .pics {
+    width: 70%;
+  }
+
+  .project-card {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .img, .details {
+    width: 90%;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .details-about {
+    width: 95%;
+    text-align: center;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    width: 60%;
+    align-self: center;
+  }
+}
+
+/* ---------------------- */
+/* 📱 Devices < 600px (Large Phones) */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .logo > img {
+    width: 140px;
+  }
+
+  .project-card {
+    padding: 10px;
+  }
+}
+
+/* ---------------------- */
+/* 📱 Devices < 400px (Small Phones) */
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .pics {
+    width: 90%;
+  }
+
+  .img, .details {
+    width: 95%;
+  }
+
+  .logo > img {
+    width: 120px;
+  }
+
+  input[type="submit"] {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+* {
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 350px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pics {
+    width: 90%;
+  }
+
+  .details, .details-about, form, input, textarea {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .project-card {
+    width: 100%;
+    padding: 10px;
+  }
 }
