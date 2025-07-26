@@ -47,7 +47,7 @@ header {
   margin-bottom: 50px;
 }
 .logo > img {
-  width: 30vw; 
+  width: 30vw;
   max-width: 150px;
   min-width: 100px;
 }
@@ -65,7 +65,25 @@ nav > ul > li > a {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-
+.git {
+  position: relative;
+  color: #91d8f7;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.git::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #91d8f7;
+  transition: width 0.3s ease-in-out;
+}
+.git:hover::after {
+  width: 100%;
+}
 nav > ul > li > a::after {
   content: "";
   position: absolute;
@@ -307,7 +325,7 @@ input[type="submit"]:hover {
 footer {
   grid-area: footer;
 }
-.explain{
+.explain {
   border-bottom: 1px solid #91d8f7;
 }
 
@@ -365,8 +383,14 @@ footer {
 
 /* Animation keyframes */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Responsive styles for thank-you */
@@ -404,12 +428,12 @@ footer {
   nav {
     display: none;
   }
-  .mobile{
+  .mobile {
     color: #91d8f7;
   }
   #nav-menu {
     position: absolute;
-    top: 70px; 
+    top: 70px;
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
@@ -421,11 +445,11 @@ footer {
     transition: transform 0.3s ease-in-out;
     z-index: 1000;
   }
-  
+
   #nav-menu.show-nav {
     transform: translateY(0);
   }
-  
+
   #nav-menu ul {
     flex-direction: column;
     align-items: center;
@@ -470,7 +494,7 @@ footer {
     width: 80%;
     padding: 10px;
   }
-  .details{
+  .details {
     width: 70%;
   }
   .about {
@@ -555,7 +579,7 @@ footer {
 
   #nav-menu {
     position: absolute;
-    top: 70px; 
+    top: 70px;
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.95);
@@ -598,7 +622,8 @@ footer {
     width: 100%;
   }
 
-  .img, .details {
+  .img,
+  .details {
     width: 90%;
   }
 
@@ -622,7 +647,8 @@ footer {
     width: 90%;
   }
 
-  input, textarea {
+  input,
+  textarea {
     width: 100%;
   }
 
@@ -659,7 +685,8 @@ footer {
     width: 90%;
   }
 
-  .img, .details {
+  .img,
+  .details {
     width: 95%;
   }
 
@@ -695,7 +722,11 @@ img {
     width: 90%;
   }
 
-  .details, .details-about, form, input, textarea {
+  .details,
+  .details-about,
+  form,
+  input,
+  textarea {
     width: 100%;
   }
 
