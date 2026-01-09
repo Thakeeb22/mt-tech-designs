@@ -1,0 +1,23 @@
+{
+  "name": "mt-tech-designs",
+  "version": "1.0.0",
+  "description": "my portfolio site",
+  "homepage": "https://github.com/Thakeeb22/mt-tech-designs#readme",
+  "bugs": {
+    "url": "https://github.com/Thakeeb22/mt-tech-designs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thakeeb22/mt-tech-designs.git"
+  },
+  "license": "ISC",
+  "author": "Muhammad Thakeeb Muhammad",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nodemailer": "^7.0.12"
+  }
+}
