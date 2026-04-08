@@ -6,7 +6,7 @@ Welcome to the official portfolio of **Muhammad Thakeeb Muhammad** — a passion
 
 ## 🚀 Live Preview
 
-👉 [View the Website](https://thakeeb22.github.io/mt-tech-designs/)
+👉 [View the Website](https://mttechdesigns.vercel.app/)
 
 ---
 
@@ -45,14 +45,10 @@ This is a fully responsive personal portfolio site that showcases:
 ## 📷 Screenshots
 
 ### 🖥️ Desktop View
-![Desktop View 1](./Screenshots/MT%20TECH%20DESIGNS%20-%20Google%20Chrome%2021_06_2025%2003_31_07.png)
-![Desktop View 2](./Screenshots/MT%20TECH%20DESIGNS%20-%20Google%20Chrome%2021_06_2025%2003_31_13.png)
-![Desktop View 3](./Screenshots/MT%20TECH%20DESIGNS%20-%20Google%20Chrome%2021_06_2025%2003_31_22.png)
+![Desktop View 1](./Screenshots/desktop.png)
 
 ### 📱 Mobile View
-![Mobile View 1](./Screenshots/1750517286304.jpg)
-![Mobile View 2](./Screenshots/1750517301618.jpg)
-![Mobile View 3](./Screenshots/Screenshot_20250621-154619.jpg)
+![Mobile View 1](./Screenshots/mobile.png)
 
 ---
 
