@@ -75,11 +75,6 @@ Web Developer | Aspiring Full-Stack Developer
 - ✅ Highlighted backend (VERY IMPORTANT for you)
 
 ---
-
-# 🔥 Optional Upgrade (If you want to flex small 😄)
-
-You can add:
-
 ```md
 ### 🔐 Backend Features
 - Form validation
