@@ -75,7 +75,6 @@ Web Developer | Aspiring Full-Stack Developer
 - ✅ Highlighted backend (VERY IMPORTANT for you)
 
 ---
-```md
 ### 🔐 Backend Features
 - Form validation
 - Error handling
