@@ -13,9 +13,10 @@ This portfolio highlights my work in web development, including real-world proje
 
 ---
 ## Screenshot
-- Desktop VIew
+# Desktop VIew
 ![](./Screenshots/desktop.png) 
-- Mobile View
+
+# Mobile View
 ![](./Screenshots/mobile.png)
 ---
 ## ⚙️ Technologies Used
