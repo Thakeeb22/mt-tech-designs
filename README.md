@@ -12,7 +12,11 @@ This is my personal portfolio website built to showcase my projects, skills, and
 This portfolio highlights my work in web development, including real-world projects, full-stack applications, and collaborative experiences. It is designed to provide visitors with a clean, responsive, and user-friendly interface.
 
 ---
+## Screenshot
 
+![](./Screenshots/desktop.png) desktop view
+![](./Screenshots/mobile.png) mobile view
+---
 ## ⚙️ Technologies Used
 
 ### Frontend
