@@ -122,14 +122,20 @@ main {
   grid-area: main;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(4, auto);
   grid-template-areas:
+  "tech-stack tech-stack tech-stack tech-stack"
     "projects projects projects projects"
     "about-me about-me about-me about-me"
     "contact contact contact contact";
   gap: 10px;
 }
 /* Projects Section */
+.tech-stack{
+  grid-area: tech-stack;
+  margin: 20px 0;
+  border-bottom: 1px solid #91d8f7;
+}
 .projects {
   grid-area: projects;
   border-bottom: 1px solid #91d8f7;
