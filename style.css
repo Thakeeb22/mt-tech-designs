@@ -505,6 +505,7 @@ footer {
   main {
     grid-template-columns: 1fr;
     grid-template-areas:
+      "tech-stack"
       "projects"
       "about-me"
       "contact";
